@@ -1,2 +1,2 @@
 # Collection
-reading collection
+learning Vim :http://learnvimscriptthehardway.stevelosh.com/ it's a good book
