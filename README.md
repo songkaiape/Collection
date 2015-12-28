@@ -11,3 +11,9 @@ learning Vim :http://learnvimscriptthehardway.stevelosh.com/ it's a good book
 一键注释： https://github.com/chemzqm/mycomment.vim 
 tab 补全： 
 https://gist.github.com/chemzqm/287b0e98560e2e0a1491 
+
+
+码农搜索工具：
+www.manongsoso.com
+https://www.souguge.com
+https://github.com/XX-net/XX-Net
