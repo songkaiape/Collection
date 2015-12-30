@@ -17,3 +17,5 @@ https://gist.github.com/chemzqm/287b0e98560e2e0a1491
 www.manongsoso.com
 https://www.souguge.com
 https://github.com/XX-net/XX-Net
+
+http://www.the5fire.com/python-practice-1.html
