@@ -19,3 +19,6 @@ https://www.souguge.com
 https://github.com/XX-net/XX-Net
 
 http://www.the5fire.com/python-practice-1.html
+ FLASK 教程 http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+ 
+ Python IDE https://www.jetbrains.com/pycharm/
