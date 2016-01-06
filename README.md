@@ -22,3 +22,5 @@ http://www.the5fire.com/python-practice-1.html
  FLASK 教程 http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
  
  Python IDE https://www.jetbrains.com/pycharm/
+ 
+ 如何提高python效率http://www.ituring.com.cn/article/115936
