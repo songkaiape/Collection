@@ -24,3 +24,5 @@ http://www.the5fire.com/python-practice-1.html
  Python IDE https://www.jetbrains.com/pycharm/
  
  如何提高python效率http://www.ituring.com.cn/article/115936
+ 
+ http://www.fullstackpython.com/
