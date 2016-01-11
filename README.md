@@ -26,3 +26,7 @@ http://www.the5fire.com/python-practice-1.html
  如何提高python效率http://www.ituring.com.cn/article/115936
  
  http://www.fullstackpython.com/
+ 
+ http://my.oschina.net/hevakelcj/blog/382243
+ Dj'ango教程
+ http://djangobook.py3k.cn/2.0/chapter05/
