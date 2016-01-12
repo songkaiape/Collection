@@ -35,3 +35,8 @@ http://www.the5fire.com/python-practice-1.html
  
  
  http://www.wklken.me/index4.html
+ 
+ 
+ 
+ 面试用
+ http://dongweiming.github.io/blog/archives/liao-liao-pythonmian-shi-zhe-jian-shi-er/
