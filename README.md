@@ -48,3 +48,7 @@ http://www.the5fire.com/python-practice-1.html
  https://hexo.io/
 算法讲解
 http://blog.csdn.net/morewindows/article/details/17488865
+
+
+linux bash
+http://www.wklken.me/posts/2013/07/04/note-of-linux-shell-scripting-cookbook.html
