@@ -40,3 +40,9 @@ http://www.the5fire.com/python-practice-1.html
  
  面试用
  http://dongweiming.github.io/blog/archives/liao-liao-pythonmian-shi-zhe-jian-shi-er/
+ 
+ 精品博客收藏：
+ http://liujiacai.net/
+ 
+ 博客框架：
+ https://hexo.io/
