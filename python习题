@@ -80,3 +80,9 @@ while len(l)>1:
         l.pop(i)
     print(l)
 print(l) 
+
+l=range(1,101)
+while len(l)!=1:
+    l=l[1::2]
+    print(l)
+print(l[0])
