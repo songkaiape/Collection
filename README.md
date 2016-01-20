@@ -43,7 +43,7 @@ http://www.the5fire.com/python-practice-1.html
  
  精品博客收藏：
  http://liujiacai.net/
- 
+ http://iiiyu.com/2016/01/12/2016-IT-professionals-Getting-Started/
  博客框架：
  https://hexo.io/
 算法讲解
@@ -58,3 +58,4 @@ linux bash
 http://www.wklken.me/posts/2013/07/04/note-of-linux-shell-scripting-cookbook.html
 网站测试工具
 http://drops.wooyun.org/tools/1548
+
