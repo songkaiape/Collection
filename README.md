@@ -48,6 +48,10 @@ http://www.the5fire.com/python-practice-1.html
  https://hexo.io/
 算法讲解
 http://blog.csdn.net/morewindows/article/details/17488865
+博客搭建：
+http://docs.uliweb.org/zh_CN/index.html
+DJango
+http://wiki.jikexueyuan.com/project/django-set-up-blog/
 
 
 linux bash
