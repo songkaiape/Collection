@@ -29,8 +29,7 @@ http://www.the5fire.com/python-practice-1.html
  
  
  http://www.wklken.me/index4.html
- 
- 
+
  
  面试用
  http://dongweiming.github.io/blog/archives/liao-liao-pythonmian-shi-zhe-jian-shi-er/
@@ -53,3 +52,5 @@ http://www.wklken.me/posts/2013/07/04/note-of-linux-shell-scripting-cookbook.htm
 网站测试工具
 http://drops.wooyun.org/tools/1548
 
+ 学习NODEJS
+ http://www.nodebeginner.org/index-zh-cn.html
