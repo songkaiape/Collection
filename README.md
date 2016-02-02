@@ -35,6 +35,7 @@ http://www.the5fire.com/python-practice-1.html
  http://dongweiming.github.io/blog/archives/liao-liao-pythonmian-shi-zhe-jian-shi-er/
  
  精品博客收藏：
+ https://xuanwo.org/about/
  http://liujiacai.net/
  http://iiiyu.com/2016/01/12/2016-IT-professionals-Getting-Started/
  博客框架：
