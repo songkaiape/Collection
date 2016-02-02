@@ -56,3 +56,5 @@ http://drops.wooyun.org/tools/1548
  http://www.nodebeginner.org/index-zh-cn.html
 
 http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/
+
+http://www.pchou.info/web-build/2014/07/04/build-github-blog-page-08.html
