@@ -34,14 +34,14 @@ http://www.the5fire.com/python-practice-1.html
  面试用
  http://dongweiming.github.io/blog/archives/liao-liao-pythonmian-shi-zhe-jian-shi-er/
  
- 精品博客收藏：
- https://xuanwo.org/about/
- http://liujiacai.net/
- http://iiiyu.com/2016/01/12/2016-IT-professionals-Getting-Started/
- 
- http://wsgzao.github.io/post/fq/
- 博客框架：
- https://hexo.io/
+精品博客收藏：
+https://xuanwo.org/about/
+http://liujiacai.net/
+http://iiiyu.com/2016/01/12/2016-IT-professionals-Getting-Started/
+http://liqi.io/
+http://wsgzao.github.io/post/fq/
+博客框架：
+https://hexo.io/
 算法讲解
 http://blog.csdn.net/morewindows/article/details/17488865
 博客搭建：
