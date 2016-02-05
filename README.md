@@ -24,7 +24,7 @@ http://www.the5fire.com/python-practice-1.html
  http://my.oschina.net/hevakelcj/blog/382243
  Dj'ango教程
  http://djangobook.py3k.cn/2.0/chapter05/
- 
+ https://github.com/lijin-THU/notes-python
  https://www.anotherhome.net/
  
  
