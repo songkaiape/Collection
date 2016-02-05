@@ -42,6 +42,7 @@ http://liqi.io/
 http://wsgzao.github.io/post/fq/
 博客框架：
 https://hexo.io/
+http://bubkoo.com/2013/12/16/hexo-issure/
 算法讲解
 http://blog.csdn.net/morewindows/article/details/17488865
 博客搭建：
