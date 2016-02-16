@@ -107,7 +107,7 @@ c1 = add(10)
 c2 = add(20)
 print(c1(),c2(),c1(),c2())
 # 经典排序算法序
-```
+```python
 def bubble_sort(array):
     
     for i in range(len(array)):
