@@ -106,3 +106,84 @@ def add(i):
 c1 = add(10)
 c2 = add(20)
 print(c1(),c2(),c1(),c2())
+# 经典排序算法序
+```
+def bubble_sort(array):
+    
+    for i in range(len(array)):
+        flag=1
+        for j in range(1,len(array)-i):
+            if array[j-1]>array[j]:
+                array[j-1],array[j] = array[j], array[j-1]
+                flag=0
+        if flag:
+            break
+        print(array)
+    return array
+
+def select_sort(ary):
+    for i in range(len(ary)):
+        minx=i
+        for j in range(i+1,len(ary)):
+            if ary[j] < ary[minx]:
+                minx=j
+        ary[minx],ary[i] = ary[i],ary[minx]
+        print(ary)
+    return ary
+def insert_sort(ary):
+    for i in range(1,len(ary)):
+        if ary[i]<ary[i-1]:
+            temp=ary[i]
+            index=i
+            for j in range(i-1,-1,-1):
+                if ary[j]>temp:
+                    ary[j+1]=ary[j]
+                    index=j
+                else:
+                    break
+            ary[index]=temp
+    return ary
+def shell_sort(ary):
+    n=len(ary)
+    gap=n//2
+    while gap>0:
+        for i in range(gap,n):
+            temp=ary[i]
+            j=i
+            while(j>=gap and ary[j-gap] >temp):
+                ary[j]=ary[j-gap]
+                j=j-gap
+            ary[j]=temp
+        gap=gap//2
+    return ary
+    
+def merge_sort(ary):
+    if len(ary)<=1:
+        return ary
+    num=int(len(ary)/2)
+    left=merge_sort(ary[:num])
+    right=merge_sort(ary[num:])
+    return merge(left,right)
+def merge(left,right):
+    l,r=0,0
+    result=[]
+    while l<len(left) and r<len(right):
+        if left[l] <right[r]:
+            result.append(left[l])
+            l+=1
+        else:
+            result.append(right[r])
+            r+=1
+    result+=left[l:]
+    result+=right[r:]
+    return result
+def qsort(ary):
+    if not ary:
+        return []
+    else:
+        pivot=ary[0]
+        less=[x for x in ary if x<pivot]
+        more=[x for x in ary[1:] if x>=pivot]
+        return qsort(less)+[pivot]+qsort(more)
+print(qsort([1000,5,77,9,22,0,100,60]))
+```
