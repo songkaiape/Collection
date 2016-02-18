@@ -71,7 +71,7 @@ Customer D: order changed to 14
 一直到一轮完成。接着在活着的人里面再次枪毙第一个，间隔一个再枪毙一个，请问最后活着的是这一百个人里的第几个人？看谁写的简单。
 
 
-
+```python
 l=list(range(100))
 while len(l)>1:
     for i in range(100):
@@ -86,9 +86,10 @@ while len(l)!=1:
     l=l[1::2]
     print(l)
 print(l[0])
-
+```
 
 简单的闭包实现：
+```python   
 def new_counter(i):
     
     def c():
@@ -106,6 +107,7 @@ def add(i):
 c1 = add(10)
 c2 = add(20)
 print(c1(),c2(),c1(),c2())
+```
 # 经典排序算法序
 ```python
 def bubble_sort(array):
