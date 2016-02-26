@@ -87,7 +87,18 @@ while len(l)!=1:
     print(l)
 print(l[0])
 ```
+约瑟夫环
+约瑟夫环：约瑟夫环是一个数学的应用问题：已知n个人（以编号1，2，3...n分别表示）围坐在一张圆桌周围。从编号为k的人开始报数，数到m的那个人出列；他的下一个人又从1开始报数，数到m的那个人又出列；依此规律重复下去，直到圆桌周围的人全部出列。
 
+```python
+def jeus(n,m):
+    r=0
+    for i in range(2,n+1):
+        r=(r+m)%i
+    return r+1
+    
+print(jeus(100,2))  
+```
 简单的闭包实现：
 ```python   
 def new_counter(i):
