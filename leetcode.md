@@ -142,6 +142,33 @@ def kth(self, a, b, k):
 ## 5. Longest Palindromic Substring
 >Given a string S, find the longest palindromic substring in S. You may assume that the maximum length of S is 1000, and there exists >one unique longest palindromic substring.
 
+
+
+中心扩展法：
+```python
+def longestPalindrome(s):
+    l=len(s)
+    if l<=1:
+        return s
+    start=maxlen=0
+    for i in range(l):
+        low,high=i-1,i
+        while low>=0 and high<l and s[low]==s[high]:
+            low-=1
+            high+=1
+        if high-low-1>maxlen:
+            maxlen=high-low-1
+            start=low+1
+        low,high=i-1,i+1
+        while low >=0 and high<l and s[low]==s[high]:
+            low-=1
+            high+=1
+        if high-low-1>maxlen:
+            maxlen=high-low-1
+            start=low+1
+    return s[start:maxlen+start]
+```
+
 ```python
 class Solution:
     #Manacher algorithm
