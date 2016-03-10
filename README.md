@@ -79,3 +79,5 @@ http://admire.so/
 
 微信机器人
 http://blog.csdn.net/tobacco5648/article/details/50802922
+
+http://pinggod.com/2015/开发者必看的技术站点/
