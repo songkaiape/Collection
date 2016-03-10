@@ -76,3 +76,6 @@ https://d3js.org/
 http://v2ex.com/t/261359#reply74
 
 http://admire.so/
+
+微信机器人
+http://blog.csdn.net/tobacco5648/article/details/50802922
