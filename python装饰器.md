@@ -35,12 +35,12 @@ def log(text):
 
 Python 定制类：
 
->  __str__
->  __repr__
->  __getitem__
->  __iter__
->  __next__
-> slice 切片 start stop
+  __str__
+  __repr__
+  __getitem__
+  __iter__
+  __next__
+ slice 切片 start stop
 ```python
 class Fib(object):
     def __init__(self):
