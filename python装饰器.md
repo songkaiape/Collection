@@ -39,7 +39,8 @@ Python 定制类：
 >  __repr__
 >  __getitem__
 >  __iter__
->  __next__
+>  __next__ 
+>  __getattr__ 动态获取属性
  slice 切片 start stop
  ```
 ```python
