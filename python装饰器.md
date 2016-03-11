@@ -41,6 +41,7 @@ Python 定制类：
 >  __iter__
 >  __next__ 
 >  __getattr__ 动态获取属性
+> __call__ 
  slice 切片 start stop
  ```
 ```python
@@ -77,3 +78,16 @@ for i in Fib():
 f=Fib()
 print('this is',f[100])
 ```
+```python
+class Chain(object):
+    def __init__(self,path=''):
+        self._path=path
+    def __getattr__(self,path):
+        return Chain('%s/%s' % (self._path,path))
+    def __str__(self):
+        return self._path
+    _repr__=__str__
+    def __call__(self,path):
+        return Chain('%s/%s' % (self,_path,path))
+Chain().status.usre.timeline.list
+Chain().users('michael').repo.list
