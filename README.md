@@ -79,5 +79,8 @@ http://admire.so/
 
 微信机器人
 http://blog.csdn.net/tobacco5648/article/details/50802922
-
+微信公众号平台搭建
+http://my.oschina.net/yangyanxing/blog/159215
+sina SAE
+http://www.sinacloud.com/ucenter/message.html?from=sidebar
 http://pinggod.com/2015/开发者必看的技术站点/
