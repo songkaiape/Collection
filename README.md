@@ -84,3 +84,6 @@ http://my.oschina.net/yangyanxing/blog/159215
 sina SAE
 http://www.sinacloud.com/ucenter/message.html?from=sidebar
 http://pinggod.com/2015/开发者必看的技术站点/
+
+python字符串
+http://pycoders-weekly-chinese.readthedocs.org/en/latest/issue5/unipain.html
