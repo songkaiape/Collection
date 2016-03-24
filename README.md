@@ -87,3 +87,5 @@ http://pinggod.com/2015/开发者必看的技术站点/
 
 python字符串
 http://pycoders-weekly-chinese.readthedocs.org/en/latest/issue5/unipain.html
+如何成为一个大牛
+http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html
