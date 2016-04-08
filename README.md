@@ -89,3 +89,6 @@ python字符串
 http://pycoders-weekly-chinese.readthedocs.org/en/latest/issue5/unipain.html
 如何成为一个大牛
 http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html
+
+
+https://learnxinyminutes.com/docs/zh-cn/python3-cn/
