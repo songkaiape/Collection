@@ -92,3 +92,6 @@ http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html
 
 
 https://learnxinyminutes.com/docs/zh-cn/python3-cn/
+
+
+http://www.pythondoc.com/
