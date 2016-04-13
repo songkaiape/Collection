@@ -95,3 +95,7 @@ https://learnxinyminutes.com/docs/zh-cn/python3-cn/
 
 
 http://www.pythondoc.com/
+
+http://blog.csdn.net/candycat1992/article/details/44039077
+https://www.shadertoy.com/view/4tjGRh
+用程序实现华丽特效
