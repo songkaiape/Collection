@@ -209,3 +209,30 @@ def qsort(ary):
         return qsort(less)+[pivot]+qsort(more)
 print(qsort([1000,5,77,9,22,0,100,60]))
 ```
+单例模式：
+```
+#new方法
+class Singleton(object):
+    def __new__(cls,*args,**kw):
+        if not hasattr(cls,'_instance'):
+            orig=super(Singleton,cls)
+            cls._instance=orig.__new__(cls,*args,**kw)
+        return cls._instance
+
+#共享属性
+class Borg(object):
+    _state={}
+    def __new__(cls,*args,**kw):
+        ob=super(Borg,cls).__new__(cls,*args,**kw)
+        ob.__dict__=cls._state
+        return ob
+        
+#装饰器
+class singleton(cls,*args,**kw):
+    instances={}
+    def getinstance():
+        if cls not in instances:
+            instances[cls]=cls(*args,**kw)
+        return instances[cls]
+    return getinstance
+```
