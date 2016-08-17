@@ -26,3 +26,38 @@ class Solution(object):
             return -num if minus else num
  ```
  
+ ## 10.Implement regular expression matching with support for '.' and '*'.
+
+  '.' Matches any single character.
+  '*' Matches zero or more of the preceding element.
+
+  The matching should cover the entire input string (not partial).
+
+  The function prototype should be:
+  bool isMatch(const char *s, const char *p)
+```
+  Some examples:
+  isMatch("aa","a") → false
+  isMatch("aa","aa") → true
+  isMatch("aaa","aa") → false
+  isMatch("aa", "a*") → true
+  isMatch("aa", ".*") → true
+  isMatch("ab", ".*") → true
+  isMatch("aab", "c*a*b") → true
+```
+解：
+```python
+class Solution(object):
+    def isMatch(self, s, p, memo={("",""):True}):
+        if not p and s:      return False
+        if not s and p:      return set(p[1::2]) == {"*"} and not (len(p) % 2)
+        if (s,p) in memo:    return memo[s,p]
+        
+        char, exp, prev = s[-1], p[-1], 0 if len(p) < 2 else p[-2]
+        memo[s,p] =\
+               (exp == '*' and ((prev in {char, '.'} and self.isMatch(s[:-1], p, memo)) or self.isMatch(s, p[:-2], memo)))\
+               or\
+               (exp in {char, '.'} and self.isMatch(s[:-1], p[:-1], memo))
+        print(memo)
+        return memo[s,p]
+```
