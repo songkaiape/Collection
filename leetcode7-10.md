@@ -25,8 +25,77 @@ class Solution(object):
         else:
             return -num if minus else num
  ```
+## 8. String to Integer (atoi)
+Implement atoi to convert a string to an integer.
+
+Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
+
+Notes: It is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front.
+
+Solution:
+```python
+class Solution(object):
+    def myAtoi(self, str):
+        num, sign, cur = 0, 1, 0
+        while cur < len(str):
+            if str[cur] == ' ':
+                cur += 1
+            elif str[cur] == '-':
+                sign, cur = -1, cur+1
+                break
+            elif str[cur] == '+':
+                cur += 1
+                break
+            elif ord(str[cur]) > 57 or ord(str[cur]) < 48:
+                cur += len(str)
+            else:
+                break
+            
+        while cur < len(str) and ord(str[cur]) >= 48 and ord(str[cur]) <= 57:
+            if num > 214748364 or (num == 214748364 and ord(str[cur]) - 48 > 7):
+                if sign == 1:
+                    return 2147483647
+                else:
+                    return -2147483648
+            num, cur = 10 * num + ord(str[cur]) - 48, cur+1
+        
+        return num * sign
+```
+solution2:
+```python
+def myAtoi(self, s):
+    try:
+        s = s.lstrip() + '$' # remove leading spaces and append an end mark
+        for i, ch in enumerate(s):
+            if not (ch in '+-' or '0' <= ch <= '9'):
+                result = int(s[:i])
+                return -2 ** 31 if result < -2 ** 31 else 2 ** 31 - 1 if result > 2 ** 31 - 1 else result
+    except:
+        return 0
+```
  
- ## 10.Implement regular expression matching with support for '.' and '*'.
+solution3:
+```python
+class Solution:
+# @return an integer
+def atoi(self, str):
+    str = str.strip()
+    str = re.findall('(^[\+\-0]*\d+)\D*', str)
+
+    try:
+        result = int(''.join(str))
+        MAX_INT = 2147483647
+        MIN_INT = -2147483648
+        if result > MAX_INT > 0:
+            return MAX_INT
+        elif result < MIN_INT < 0:
+            return MIN_INT
+        else:
+            return result
+    except:
+        return 0
+```
+## 10.Implement regular expression matching with support for '.' and '*'.
 
   '.' Matches any single character.
   '*' Matches zero or more of the preceding element.
