@@ -48,7 +48,7 @@
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
-    "storageAccountType": "Standard_LRS",
+    "storageAccountType": "Premium_LRS",
     "publicIPAddressName": "myPublicIPD2",
     "publicIPAddressType": "Dynamic",
     "vmStorageAccountContainerName": "vhds",
